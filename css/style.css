@@ -1,0 +1,121 @@
+/* Variables */
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --desat-blue: hsl(229, 23%, 23%);
+  --grayish-ble: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --ff: "Kumbh Sans", sans-serif;
+}
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff);
+}
+
+body {
+  background: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg), var(--dark-cyan);
+  background-repeat: no-repeat;
+  background-position: right 41vw bottom 43vh, left 41vw top 43vh;
+  position: relative;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+/* Card Elements */
+
+.card {
+  background-color: #fff;
+  width: 87%;
+  max-width: 21.9rem;
+  height: 23.4rem;
+  border-radius: 16px;
+  box-shadow: 0 35px 75px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card-header {
+  height: 18rem;
+  border-bottom: 1px solid hsl(0, 0%, 59%, 0.25);
+  position: relative;
+}
+
+.card-header-bg {
+  height: 49%;
+  background: url(../images/bg-pattern-card.svg) center/cover no-repeat;
+}
+
+.card-header-img {
+  border-radius: 50%;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+}
+
+.card-header-info {
+  height: 9rem;
+  padding-top: 4.55rem;
+  text-align: center;
+}
+
+.header-info-name-age h1 {
+  display: inline;
+  font-size: 1.1rem;
+  color: var(--desat-blue);
+  letter-spacing: 0.025rem;
+}
+
+.header-info-name-age p {
+  display: inline;
+  color: var(--dark-gray);
+  font-size: 1.1rem;
+  padding-left: 0.4rem;
+}
+
+.header-info-location {
+  color: var(--dark-gray);
+  padding-top: 0.525rem;
+  font-size: 0.875rem;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5.4rem;
+  text-align: center;
+}
+
+.card-stats h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.025rem;
+  color: var(--desat-blue);
+}
+
+.card-stats span {
+  display: block;
+  color: var(--dark-gray);
+  font-size: 0.75rem;
+  letter-spacing: 0.035rem;
+  padding-top: 0.25rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-position: right 51.75vw bottom 35.4vh, left 48.1vw top 52.1vh;
+  }
+}
