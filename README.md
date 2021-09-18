@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-html-and-css-flexbox-RTfmByunW)
-- Live Site URL: [Preview Site](https://jgbpessoa.github.io/3-column-card/)
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-css-flexbox-VdSj9kJXj)
+- Live Site URL: [Preview Site](https://jgbpessoa.github.io/profile-card/)
 
 ## My process
 
