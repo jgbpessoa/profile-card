@@ -22,21 +22,6 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>Frontend Mentor | Profile card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translate(-50%);
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -46,28 +31,39 @@
           <img
             class="card-header-img"
             src="./images/image-victor.jpg"
-            alt="Profile Picture"
+            alt="Victor Crest"
           />
           <div class="card-header-info">
             <div class="header-info-name-age">
-              <h1>Victor Crest</h1>
-              <p>26</p>
+              <h1 class="header-info-name">Victor Crest</h1>
+              <p class="header-info-age">26</p>
             </div>
-            <p class="header-info-location">London</p>
+            <address class="header-info-location">London</address>
           </div>
         </header>
-        <section class="card-stats">
-          <h2>80K <span>Followers</span></h2>
-          <h2>803K <span>Likes</span></h2>
-          <h2>1.4K <span>Photos</span></h2>
+        <section>
+          <ul class="card-stats-list">
+            <li class="stat-number">
+              80K <span class="stat-info">Followers</span>
+            </li>
+            <li class="stat-number">
+              803K <span class="stat-info">Likes</span>
+            </li>
+            <li class="stat-number">
+              1.4K <span class="stat-info">Photos</span>
+            </li>
+          </ul>
         </section>
       </article>
     </main>
     <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        class="attribution-link"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">José Pessoa</a>.
+      >. Coded by <a href="#" class="attribution-link">José Pessoa</a>.
     </footer>
   </body>
 </html>
