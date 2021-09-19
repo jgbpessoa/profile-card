@@ -40,7 +40,7 @@ Users should be able to:
 
 <p align="center">
 <img src="./images/screenshot-mobile.png"
-     alt="Desktop Screenshot" height="500">
+     alt="Desktop Screenshot" height="525">
 </p>
 
 ### Links
